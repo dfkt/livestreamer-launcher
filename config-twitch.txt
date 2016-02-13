@@ -1,0 +1,3 @@
+player="C:\Program Files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe"
+twitch-oauth-token=
+hls-segment-threads=2
