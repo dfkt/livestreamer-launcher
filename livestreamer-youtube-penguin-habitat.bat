@@ -2,6 +2,8 @@
 
 :: http://explore.org/live-cams/player/live-penguin-cam
 
+title Livestreamer
+
 start player-kill.cmd
 
 set     url="https://www.youtube.com/watch?v=QZWDji2Jz7Q"

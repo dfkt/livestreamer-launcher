@@ -2,6 +2,8 @@
 
 :: http://cams.allaboutbirds.org/channel/41/Laysan_Albatross/
 
+title Livestreamer
+
 start player-kill.cmd
 
 set     url="https://www.youtube.com/watch?v=KMdKKpXSMVU"

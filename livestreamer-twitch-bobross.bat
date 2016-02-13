@@ -1,5 +1,7 @@
 @echo off
 
+title Livestreamer
+
 start player-kill.cmd
 
 set     url="twitch.tv/bobross"

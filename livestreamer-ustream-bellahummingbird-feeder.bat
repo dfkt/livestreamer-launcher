@@ -2,6 +2,8 @@
 
 :: http://www.bellahummingbird.com/
 
+title Livestreamer
+
 start player-kill.cmd
 
 set     url="ustream.tv/channel/14162981"

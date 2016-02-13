@@ -2,6 +2,8 @@
 
 :: http://www.owlchannel.com/cvcam1ustream.html
 
+title Livestreamer
+
 start player-kill.cmd
 
 set     url="ustream.tv/channel/9579359"

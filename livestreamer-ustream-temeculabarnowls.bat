@@ -2,6 +2,8 @@
 
 :: http://www.owlchannel.com/temeculabarnowls.html
 
+title Livestreamer
+
 start player-kill.cmd
 
 set     url="ustream.tv/channel/10816781"
