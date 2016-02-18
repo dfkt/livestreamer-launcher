@@ -4,12 +4,12 @@
 
 title Livestreamer
 
-start player-kill.cmd
+start "" ".\player-kill.cmd"
 
 set     url="https://www.youtube.com/watch?v=Gwy2IjA7z-I"
-set  config="config-youtube.txt"
-set quality="high,720p,480p,best"
+set  config=".\configs\config-youtube.txt"
+set quality="720p,576p,480p,high,best"
 
-livestreamer --config %config% %url% %quality%
+".\livestreamer.exe" --config %config% %url% %quality%
 
 exit

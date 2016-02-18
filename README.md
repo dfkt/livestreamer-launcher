@@ -2,10 +2,10 @@
 
 A Windows CLI launcher for https://github.com/chrippa/livestreamer
 
-Put all files in your Livestreamer directory, and run `livestreamer.cmd` to launch a stream selector.
-Edit the configs to point to your video player of choice, handle logins/oauth, etc.
-
-The `ls-[site].bat` scripts (without stream name in the file name) require URL input.
+Put all files in your Livestreamer directory, edit the configs to point to your video player of choice, handle logins/oauth, etc.
+ 
+Run `livestreamer.cmd` to launch a selector with your predefined streams.
+Run `livestreamer-url-input.cmd` to launch a selector that requires manual URL input.
 
 Livestreamer can't handle an already open MPC-HC video player, so `player-kill.cmd` runs a taskkill on it before starting a stream. (No idea if Livestreamer handles other video players better - you have to try if you can run streams without a taskkill.)
 
