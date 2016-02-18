@@ -17,6 +17,7 @@ echo.
 set /p choice="Enter Choice: "
 
 set newchoice=opt%choice%
+::cmd /c start /min !%newchoice%!
 start !%newchoice%!
 
 endlocal
