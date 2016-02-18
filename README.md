@@ -9,4 +9,4 @@ The `ls-[site].bat` scripts (without stream name in the file name) require URL i
 
 Livestreamer can't handle an already open MPC-HC video player, so `player-kill.cmd` runs a taskkill on it before starting a stream. (No idea if Livestreamer handles other video players better - you have to try if you can run streams without a taskkill.)
 
-![Screenshot](https://cloud.githubusercontent.com/assets/5091485/13112420/dec3f796-d58a-11e5-92eb-cd6b24ee12bc.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/5091485/13146598/cfb8e2f8-d656-11e5-9b19-08c3067f85d5.png)
