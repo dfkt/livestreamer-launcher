@@ -4,7 +4,7 @@ title Livestreamer
 
 start "" ".\player-kill.cmd"
 
-set     url="http://www.ustream.tv/channel/14162981"
+set     url="http://www.ustream.tv/channel/18282710"
 set  config=".\configs\config-ustream.txt"
 set quality="720p,576p,480p,high,best"
 
@@ -12,4 +12,4 @@ set quality="720p,576p,480p,high,best"
 
 exit
 
-:: http://www.bellahummingbird.com/
+:: http://explore.org/live-cams/player/puffin-boulder-berm-cam

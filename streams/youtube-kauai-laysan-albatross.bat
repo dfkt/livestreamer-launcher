@@ -1,7 +1,5 @@
 @echo off
 
-:: http://cams.allaboutbirds.org/channel/41/Laysan_Albatross/
-
 title Livestreamer
 
 start "" ".\player-kill.cmd"
@@ -13,3 +11,5 @@ set quality="720p,576p,480p,high,best"
 ".\livestreamer.exe" --config %config% %url% %quality%
 
 exit
+
+:: http://cams.allaboutbirds.org/channel/41/Laysan_Albatross/

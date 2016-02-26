@@ -1,7 +1,5 @@
 @echo off
 
-:: http://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/albatrosses/royal-albatross-toroa/royal-cam/
-
 title Livestreamer
 
 start "" ".\player-kill.cmd"
@@ -13,3 +11,5 @@ set quality="720p,576p,480p,high,best"
 ".\livestreamer.exe" --config %config% %url% %quality%
 
 exit
+
+:: http://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/albatrosses/royal-albatross-toroa/royal-cam/

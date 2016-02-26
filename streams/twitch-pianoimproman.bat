@@ -4,7 +4,7 @@ title Livestreamer
 
 start "" ".\player-kill.cmd"
 
-set     url="twitch.tv/pianoimproman"
+set     url="https://www.twitch.tv/pianoimproman"
 set  config=".\configs\config-twitch.txt"
 set quality="720p,576p,480p,high,best"
 

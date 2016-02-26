@@ -4,7 +4,7 @@ title Livestreamer
 
 start "" ".\player-kill.cmd"
 
-set     url="twitch.tv/bobross"
+set     url="https://www.twitch.tv/bobross"
 set  config=".\configs\config-twitch.txt"
 set quality="720p,576p,480p,high,best"
 

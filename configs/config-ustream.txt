@@ -1,2 +1,2 @@
-player="C:\Program Files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe"
+player=".\player.cmd"
 stream-segment-threads=3

@@ -1,0 +1,5 @@
+player=".\player.cmd"
+player-passthrough=http,rtmp,hls
+stream-segment-threads=2
+hds-segment-threads=2
+hls-segment-threads=2
