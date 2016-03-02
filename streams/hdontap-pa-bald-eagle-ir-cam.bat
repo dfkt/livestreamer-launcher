@@ -7,7 +7,9 @@ start "" ".\player-kill.cmd"
 set "url=http://edge06.hdontap.com/ingest01-hdontap/paeagle-ir_hdontap.stream/playlist.m3u8"
 set quality="best"
 
-".\livestreamer.exe" --player ".\player.cmd" "hlsvariant://%url%" %quality%
+".\livestreamer.exe" --player ".\player.cmd" ^
+	"hlsvariant://%url%" ^
+	%quality%
 
 exit
 
