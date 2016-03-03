@@ -13,3 +13,4 @@ set quality="720p,576p,480p,high,best"
 exit
 
 :: http://cams.allaboutbirds.org/channel/42/Barn_Owls/
+:: http://www.owlchannel.com/texasbarnowls.html
