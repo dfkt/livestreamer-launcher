@@ -3,11 +3,12 @@
 title Livestreamer
 
 start /min "" ".\player-kill.cmd"
-timeout /t 2
+timeout /t 2 >nul
 
+set /p "url=RTSP URL: "
+
+echo.
 :: We don't even need Livestreamer for that one, heh.
-".\player.cmd" rtsp://streams.videospeler.nl:80/live/bdl_koolmees_1
+".\player.cmd" "%url%"
 
 exit
-
-:: http://birdfood.co.uk/webcams

@@ -2,7 +2,8 @@
 
 title Livestreamer
 
-start "" ".\player-kill.cmd"
+start /min "" ".\player-kill.cmd"
+timeout /t 2
 
 set "url=http://edge06.hdontap.com/ingest01-hdontap/paeagle-ir_hdontap.stream/playlist.m3u8"
 set quality="best"

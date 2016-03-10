@@ -2,11 +2,12 @@
 
 title Livestreamer
 
-start "" ".\player-kill.cmd"
+start /min "" ".\player-kill.cmd"
+:: timeout /t 2 >nul
 
 set /p url="Twitch URL: "
 set config=".\configs\config-twitch.txt"
-set quality="720p,576p,480p,high,best"
+set quality="high,best"
 
 echo.
 ".\livestreamer.exe" --config %config% %url% %quality%

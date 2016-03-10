@@ -2,7 +2,8 @@
 
 title Livestreamer
 
-start "" ".\player-kill.cmd"
+start /min "" ".\player-kill.cmd"
+timeout /t 2
 
 :: We don't even need Livestreamer for that one, heh.
 ".\player.cmd" rtsp://streams.videospeler.nl:80/live/bdl_tuinvogels_3

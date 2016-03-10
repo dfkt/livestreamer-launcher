@@ -2,7 +2,8 @@
 
 title Livestreamer
 
-start "" ".\player-kill.cmd"
+start /min "" ".\player-kill.cmd"
+timeout /t 2
 
 set url="http://www.ustream.tv/channel/20202329"
 set config=".\configs\config-ustream.txt"

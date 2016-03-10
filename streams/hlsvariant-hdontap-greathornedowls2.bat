@@ -2,9 +2,10 @@
 
 title Livestreamer
 
-start "" ".\player-kill.cmd"
+start /min "" ".\player-kill.cmd"
+timeout /t 2
 
-set "url=http://edge07.hdontap.com/ingest03-dvr1/eagle1-dvr_skidaway.stream/playlist.m3u8"
+set "url=http://edge10.hdontap.com/ingest03-dvr1/eagle2-dvr_skidaway.stream/playlist.m3u8"
 set quality="best"
 
 ".\livestreamer.exe" --player ".\player.cmd" ^
@@ -12,7 +13,7 @@ set quality="best"
 	%quality%
 
 :: Doesn't work straight away in MPC-HC, so we could be using VLC directly, as an alternative:
-:: ".\player-vlc.cmd" http://edge07.hdontap.com/ingest03-dvr1/eagle1-dvr_skidaway.stream/playlist.m3u8
+:: ".\player-vlc.cmd" http://edge10.hdontap.com/ingest03-dvr1/eagle2-dvr_skidaway.stream/playlist.m3u8
 
 exit
 

@@ -2,7 +2,8 @@
 
 title Livestreamer
 
-start "" ".\player-kill.cmd"
+start /min "" ".\player-kill.cmd"
+timeout /t 2
 
 set "url=http://live-14.viewer.dacast.com/z/dclive_1@175950/manifest.f4m?hdnea=st=1456762273~exp=1456762393~acl=/z/dclive_1@175950*~hmac=f45ee39ae17f68950c7726d67b3e10608021a9f352730db4b139591fa6abe894&hdcore=3.6&g=CLJVYNSDGEBG&plugin=aasp-3.9.0.19.11"
 :: set "cookie=_alid_=x3k6ai/gvWBfKbokd8PIdg==; path=/z/dclive_1@175950/; domain=live-14.viewer.dacast.com"

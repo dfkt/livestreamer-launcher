@@ -2,7 +2,8 @@
 
 title Livestreamer
 
-start "" ".\player-kill.cmd"
+start /min "" ".\player-kill.cmd"
+:: timeout /t 2 >nul
 
 set /p "url=rtmpte://"
 set quality="best"
