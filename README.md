@@ -2,7 +2,7 @@
 
 A Windows CLI launcher for [Livestreamer](https://github.com/chrippa/livestreamer), built with MPC-HC/CCCP in mind (but works for any other supported player with a few modifications).
 
-Put all files/folders in your Livestreamer directory. Edit `player.cmd` to point to your video player of choice, put your stream scripts/URLs in the `scripts` folder, edit `configs` to handle logins/oauth, etc.
+Put all files/folders in your Livestreamer directory. Edit `player.cmd` to point to your video player of choice, put your stream scripts/URLs in the `streams` folder, edit `configs` to handle logins/oauth, etc.
  
 - Run `livestreamer.cmd` to launch a selector with your predefined streams.
 - Run `livestreamer-url-input.cmd` to launch a selector that requires manual URL input.
