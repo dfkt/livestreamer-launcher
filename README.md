@@ -11,6 +11,7 @@ Put all files/folders in your Livestreamer directory. Edit `player.cmd` to point
 
 Livestreamer can't handle an already open MPC-HC video player, so `player-kill.cmd` runs a taskkill on it before starting a stream. You might have to edit this file to point to your player of choice. (No idea if Livestreamer handles other video players better - you have to try if you can run streams without a taskkill.)
 
+RTMP playback needs [rtmpdump.exe](https://rtmpdump.mplayerhq.hu/).  
 Get a [working Ustream plugin](https://github.com/chrippa/livestreamer/issues/1122#issuecomment-182089784) here.
 
 ####Screenshots:
