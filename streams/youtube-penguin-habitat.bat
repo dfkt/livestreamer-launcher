@@ -5,7 +5,7 @@ title Livestreamer
 start /min "" ".\player-kill.cmd"
 timeout /t 2
 
-set url="https://www.youtube.com/watch?v=QZWDji2Jz7Q"
+set url="https://www.youtube.com/watch?v=y6TmFxcVrnI"
 set config=".\configs\config-youtube.txt"
 set quality="720p,480p,best"
 
